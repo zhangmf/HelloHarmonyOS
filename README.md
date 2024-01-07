@@ -1,2 +1,2 @@
 # HelloHarmonyOS
-HarmonyOS 4.0
+HarmonyOS 4.0-Release

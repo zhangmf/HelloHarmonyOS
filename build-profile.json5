@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/zmf/.ohos/config/auto_debug_HelloHarmonyOS_com.example.helloharmonyos_10086000139399675.cer",
+          "storePassword": "0000001B84EA88D6790570ABC3DEAFD8FF0A996B644094B12C2A6998FB3A7A1088EB218ACE28485B02477B",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BAF34EE181C71AA9733687EF2F33D458BC3C0F9262012F8F7D1ADBA0FD17AECF02A7E874D0FA689",
+          "profile": "/Users/zmf/.ohos/config/auto_debug_HelloHarmonyOS_com.example.helloharmonyos_10086000139399675.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/zmf/.ohos/config/auto_debug_HelloHarmonyOS_com.example.helloharmonyos_10086000139399675.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

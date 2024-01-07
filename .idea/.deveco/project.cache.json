@@ -1,0 +1,16 @@
+{
+	"BuildOptions":{
+		"BUNDLE_NAME":"com.example.helloharmonyos",
+		"SELECT_BUILD_MODE":"",
+		"BUILD_PATH":{
+			"OUTPUT_PATH":"/Users/zmf/MyWork/DevEcoStudioProjects_4.0/HelloHarmonyOS/build/outputs/default"
+		},
+		"SELECT_BUILD_PRODUCT":"default"
+	},
+	"CommonInfo":{
+		"crossplatform.projectType":"",
+		"project.ide.version":"4.0.0.600",
+		"current.select.product":"default",
+		"current.select.buildMode":""
+	}
+}
