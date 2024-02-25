@@ -1,5 +1,9 @@
 {
   "src": [
-    "pages/Index"
+    "pages/main/MainPage",
+    "pages/about/AboutPage",
+    "pages/agree/AgreementPage",
+    "pages/privacy/PrivacyPage",
+    "pages/detail/DetailPage"
   ]
 }
